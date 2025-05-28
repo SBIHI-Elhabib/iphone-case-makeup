@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
         }}
       >
         <img 
-          src="/LOGO.svg" 
+          src={`${import.meta.env.BASE_URL}LOGO.svg`}  
           alt="Logo" 
           className="h-20 w-auto"  // Adjust size as needed
         />

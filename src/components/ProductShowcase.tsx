@@ -58,7 +58,7 @@ const ProductShowcase: React.FC = () => {
           >
             <div className="relative">
               <motion.img 
-                src="/new_product.jpeg" 
+                src={`${import.meta.env.BASE_URL}new_product.jpeg`} 
                 alt="Nova Product" 
                 className="rounded-lg shadow-xl max-w-full h-auto"
                 animate={{ y: [0, -10, 0] }}
@@ -94,7 +94,7 @@ const ProductShowcase: React.FC = () => {
               viewport={{ once: true }}
             >
               <img 
-                src="/image1.png" 
+                src={`${import.meta.env.BASE_URL}image1.png`}  
                 alt="Nova in use" 
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
               />
@@ -108,7 +108,7 @@ const ProductShowcase: React.FC = () => {
               viewport={{ once: true }}
             >
               <img 
-                src="/image2.png" 
+                src={`${import.meta.env.BASE_URL}image2.png`}  
                 alt="Nova features" 
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
               />
@@ -122,7 +122,7 @@ const ProductShowcase: React.FC = () => {
               viewport={{ once: true }}
             >
               <img 
-                src="/image3.png" 
+                src={`${import.meta.env.BASE_URL}image3.png`}  
                 alt="Nova design" 
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
               />

@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
   return (
     <section id="home" className="relative h-screen flex items-center">
       <VideoBackground 
-        videoUrl="/video.mp4" 
+        videoUrl={`${import.meta.env.BASE_URL}video.mp4`} 
         overlayOpacity={40}
       />
       
